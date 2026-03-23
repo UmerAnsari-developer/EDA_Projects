@@ -97,6 +97,7 @@ text
 netflix-content-analysis/
 
 │
+
 ├── shows_analysis.ipynb     # Main Jupyter notebook with complete analysis
 
 ├── netflix_titles.csv        # Dataset file
@@ -109,13 +110,17 @@ netflix-content-analysis/
 
 └── visualizations/           # Generated plots and charts
 
-    ├── content_type_distribution.png
     
-    ├── content_growth_trend.png
+        ├── content_type_distribution.png
     
-    ├── top_countries_content.png
+        
+        ├── content_growth_trend.png
     
-    └── rating_distribution.png
+        
+        ├── top_countries_content.png
+    
+    
+        └── rating_distribution.png
 
 **Installation & Setup**
 
@@ -123,7 +128,7 @@ bash
 
 # Clone the repository
 
-git clone https://github.com/yourusername/netflix-content-analysis.git
+git clone https://github.com/UmerAnsari-developer/EDA_Projects/netflix-content-analysis.git
 
 
 # Navigate to project directory
