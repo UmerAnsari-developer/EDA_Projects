@@ -93,17 +93,28 @@ Rating Distribution - Audience rating category breakdown
 **Project Structure**
 
 text
+
 netflix-content-analysis/
+
 │
 ├── shows_analysis.ipynb     # Main Jupyter notebook with complete analysis
+
 ├── netflix_titles.csv        # Dataset file
+
 ├── requirements.txt          # Python dependencies
+
 ├── README.md                 # Project documentation
+
 │
+
 └── visualizations/           # Generated plots and charts
+
     ├── content_type_distribution.png
+    
     ├── content_growth_trend.png
+    
     ├── top_countries_content.png
+    
     └── rating_distribution.png
 
 **Installation & Setup**
