@@ -1,0 +1,15 @@
+def bar_chart(data, title, xlabel, ylabel):
+    plt.figure(figsize=(10,6))
+    data.plot(kind = 'bar', color = 'purple')
+    plt.title(title, fontsize=12)
+    plt.xlabel(xlabel)
+    plt.ylabel(ylabel)
+    plt.xticks(rotation=45, ha='right', fontsize=10)
+    plt.grid(axis='y', linestyle = '--', alpha=0.7)
+
+    # Add data labels
+    for index, value in enumerate(data):
+        plt.text(index, value, f'{value: .2f}', ha='center', va='bottom', fontsize=10)
+    plt.tight_layout()
+    plt.show()
+    
