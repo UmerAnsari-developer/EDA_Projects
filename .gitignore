@@ -1,0 +1,9 @@
+# Ignore everything by default
+*
+!*/
+!.gitignore
+
+# Only track the three project folders
+!Customer_Churn_Analysis/**
+!Netflix_Shows_Analysis/**
+!Walmart_EDA/**
